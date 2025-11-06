@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    padding: 24px 72px 32px 72px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 500;
+    color: #374151;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #9CA3AF;
+    padding-bottom: 4px;
+}
+.search input{
+    border: none;
+    background: none;
+    outline: none;
+}
+.search input::placeholder{
+    color: #252628;
+    
+}
+
+.menu{
+    display: flex;
+    width: 30%;
+    align-items: center;
+   justify-content: space-between; 
+}
+.menu li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #687280;
+}
+.menu .busket{
+display: flex;
+align-items: center;
+font-size: 16px;
+font-weight: 600;
+color: #1f2937;
+
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    list-style: none;
+    
+}
+.secondnav{
+    padding: 20px 72px;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 600;
+}
+.navlinks li span {
+    background-color: #eb5757;
+    padding: 4px 8px;
+    color: #ffffff;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.header{
+    display: flex;
+    height: 78vh;
+    width: 100%;
+    
+}
+.texts{ 
+    background: url("./images/sttippedpattern.png"), #1c2333;       
+    height: 100%;
+    width: 64%;
+}
+.box{
+    margin: 125px 96px;
+    background-color: #1f2937;
+    padding: 40px;
+    width: 55;
+}
+.percentage{
+    font-size: 50px;
+    font-weight: 500;
+    color: #FAFAFA;
+}
+.arrivals{
+    color: #f7c59f;
+    font-size: 56px;
+    font-weight: 500;
+
+}
+.p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #f3f4f6;
+    margin-top: 24px;
+
+}
+.outline{
+         margin-top: 56px;
+         background-color: transparent;
+         border: 1px solid #FAFAFA;
+         padding: 12px 16px;
+         font-size: 16px;
+         font-weight: 600;
+         color: #FAFAFA;
+
+}
+.image{
+    background-color: #f7c59f;
+     width: 30%;
+}
+.circle{
+        border-radius: 50%;
+        background-color: #ffffff;
+        width: 300px;
+        height: 300px;
+        margin: 34% auto;
+        display: flex;
+        justify-content: center;
+} 
+.img{
+    height: 550px;
+    width: 250px;
+    object-fit: cover;
+    margin: -33%;
+} 
+.header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #374151;
+    height: 42px;
+    font-weight: 700;
+} 
+.all1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}  
+.shoes1{
+    background: url(./images/shoes.png);
+    width: 466px;
+    height: 506px;
+
+}
+.shoes2{
+    background: url(./images/lady.png);
+    height: 506px;
+    width: 762px;
+}
+.head1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 358px;
+    height: 142px;
+    color: #FAFAFA;
+    font-weight: 600;
+}
+.b1{
+    opacity: 0.6;
+    width: 221px;
+    height: 100px;
+    margin-top: 220px;
+    position: 116px 1391px;
+}
+.head2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 526px;
+    height: 142px;
+    color: #FAFAFA;
+    font-weight: 600;
+
+}
+.b2{
+    opacity: 0.6;
+    width: 291px;
+    height: 100px;
+    margin-top: 220px;
+}
+.rec{
+    display: flex;
+    width: 88px;
+    height: 4px;
+    color: #374151;
+}
+.all2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.new{
+    background: url(./images/cods.png);
+    height: 506px;
+    width: 762px;
+}.items{
+    background: url(./images/bag.png);
+    width: 466px;
+    height: 506px;
+}
+.head3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FAFAFA;
+    height: 150px;
+    width: 600px;
+}
+.head4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FAFAFA;
+    height: 150px;
+    width: 600px;
+}
+.b3{
+    opacity: 0.6;
+    width: 291px;
+    height: 100px;
+    margin-top: 220px;
+}
+.b4{
+    opacity: 0.6;
+    width: 291px;
+    height: 100px;
+    margin-top: 220px;
+    padding: 12px 16px;
+}
+.p{
+    color: #FAFAFA;
+}
+.sample{
+    align-items: center;
+    justify-items: center;
+}
+.pop{
+    align-items: center;
+    justify-items: center;
+}
+.try{
+    align-items: center;
+    display: flex;
+}
+.gals{
+    display: flex;
+    justify-content: center;
+}
+.words{
+    width: 297px;
+    height: 44px;
+}.w{
+    width: 104px;
+    height: 18px;  
+}
+.brands{
+    align-items: center;
+    justify-items: center;
+}
+.me{
+    display: flex;
+    justify-content: center;
+}
+.ugh{
+    display: flex;
+    align-items: center;
+}
+.labels{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.ldy{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
