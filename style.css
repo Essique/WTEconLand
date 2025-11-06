@@ -295,5 +295,18 @@ color: #1f2937;
     align-content: center;
     justify-content: center;
 }
+@media screen and (max width: 400px) {
+    .navbar{
+        flex-direction: column;
+        padding: 14px 20px;
+    }
+    .menu{
+        width: 90%;
+    }
+    .navlinks{
+        flex-direction: column;
+        align-items: start;
+    }
+}
 
 
