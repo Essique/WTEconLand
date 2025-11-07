@@ -269,13 +269,15 @@ color: #1f2937;
 .words{
     width: 297px;
     height: 44px;
-}.w{
+}
+.w{
     width: 104px;
     height: 18px;  
 }
 .brands{
     align-items: center;
     justify-items: center;
+    gap: 56px;
 }
 .me{
     display: flex;
@@ -295,7 +297,7 @@ color: #1f2937;
     align-content: center;
     justify-content: center;
 }
-@media screen and (max width: 400px) {
+@media screen and (max-width: 400px) {
     .navbar{
         flex-direction: column;
         padding: 14px 20px;
