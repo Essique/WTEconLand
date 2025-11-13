@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculations</title>
+</head>
+<body>
+    <div>
+ <h4>Use this to sum two numbers together</h4>
+
+     <form id="sumForm">
+<label>First Number</label>
+<input id="first-number" type="number" required/>
+<label>Second Number</label>
+<input id="second-number" type="number" required/>
+<label>Third Number</label>
+<input id="third-number" type="number" required/>
+<button type="submit">sum</button>
+        </form>
+        <p>The result is:</p>
+        <p id="sum" style="font-weight: 700;  font-size: 24px;"></p>
+    </div>
+
+    <div>
+        <h4>Contant Us</h4>
+        <form id="contactform">
+            <label>Email</label>
+            <input id="email-input" type="email" required/>
+            <label>Message</label>
+            <textarea id="Message-input"></textarea>
+            <button type="submit">Contact</button>
+        </form>
+        <p>Email is <span id="email"></span></p>
+        <p>Message is <span id="message"></span></p>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
